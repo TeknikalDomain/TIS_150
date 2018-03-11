@@ -1,0 +1,8 @@
+/home/jack/Documents/Code/C#/TIS_150/TIS 150/obj/Debug/TIS 150.csprojResolveAssemblyReference.cache
+/home/jack/Documents/Code/C#/TIS_150/TIS 150/obj/Debug/TIS 150.csproj.CoreCompileInputs.cache
+/home/jack/Documents/Code/C#/TIS_150/TIS 150/bin/Debug/TIS150_Icon.ico
+/home/jack/Documents/Code/C#/TIS_150/TIS 150/bin/Debug/TIS_150.exe.config
+/home/jack/Documents/Code/C#/TIS_150/TIS 150/bin/Debug/TIS_150.exe
+/home/jack/Documents/Code/C#/TIS_150/TIS 150/bin/Debug/TIS_150.pdb
+/home/jack/Documents/Code/C#/TIS_150/TIS 150/obj/Debug/TIS_150.exe
+/home/jack/Documents/Code/C#/TIS_150/TIS 150/obj/Debug/TIS_150.pdb
