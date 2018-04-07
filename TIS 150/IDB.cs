@@ -258,7 +258,7 @@ namespace TIS_150
 
         public void Dump()
         {
-            Direcory.Delete(DBDir.Parent.FullName + "/TISDUMP", true)
+            Directory.Delete(DBDir.Parent.FullName + "/TISDUMP", true);
             DirectoryInfo dumpDir = Directory.CreateDirectory(DBDir.Parent.FullName + "/TISDUMP");
             foreach (DirectoryInfo dir in DBDir.EnumerateDirectories())
             {
