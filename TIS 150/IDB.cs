@@ -258,6 +258,7 @@ namespace TIS_150
 
         public void Dump()
         {
+            Direcory.Delete(DBDir.Parent.FullName + "/TISDUMP", true)
             DirectoryInfo dumpDir = Directory.CreateDirectory(DBDir.Parent.FullName + "/TISDUMP");
             foreach (DirectoryInfo dir in DBDir.EnumerateDirectories())
             {
@@ -267,7 +268,7 @@ namespace TIS_150
                     foreach (FileInfo file in dir.GetFiles())
                     {
                         Console.Write("Saving unsorted {0}...", file.Name);
-                        File.Copy(file.FullName, dumpDir.FullName + "/" + file.Name);
+                        File.Copy(file.FullName, dumpDir.FullName + "/Unsorted/" + file.Name);
                         Program.ClearLine();
                     }
                 }
