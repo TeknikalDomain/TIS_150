@@ -267,7 +267,7 @@ namespace TIS_150
                     dumpDir.CreateSubdirectory("Unsorted");
                     foreach (FileInfo file in dir.GetFiles())
                     {
-                        Console.Write("Saving unsorted {0}...", file.Name);
+                        Console.Write("Saving (unsorted) {0}...", file.Name);
                         File.Copy(file.FullName, dumpDir.FullName + "/Unsorted/" + file.Name);
                         Program.ClearLine();
                     }
